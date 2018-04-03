@@ -135,3 +135,17 @@ console.log('the murderer is ', murderer);
 // // Make up your own episode which can be whatever you wish and the rest of the class
 // // will work out together what happened and what the output will be.
 // // =================================================================================
+
+console.log('The unlucky victim1 is', victim1);
+
+let victim2 = "Miss Scarlett";
+
+const guessWho = function() {
+  victim1 = 'Mrs White';
+}
+
+guessWho();
+console.log('The unlucky victim1 is', victim1);
+console.log('The unlucky victim2 is', victim2);
+
+var victim1 = 'Colonel Mustard';
